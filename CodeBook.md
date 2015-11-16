@@ -12,4 +12,4 @@
 
 ## tidy.txt
 
-The tidy.txt file contains a data set of averages for subjects by activity
+The tidy.txt file contains a data set of averages for subjects by activity.  The file has the labels for each variable located in the tidy data set.
