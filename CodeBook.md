@@ -1,9 +1,6 @@
----
-title: "Code Book"
-output: html_document
----
+#Code Book
 
-### Analysis of the Human Activity Recognition Data
+## Analysis of the Human Activity Recognition Data
 * We read in all of the test and training data.  
 * We joined the subject and activity data to their respective data frames. 
 * We applied the labels from the activity labels file
@@ -13,6 +10,6 @@ output: html_document
 * We grouped the data by Activity and Subject and
 * Averaged the remaining fields for their respective variables
 
-### tidy.csv
+## tidy.txt
 
-The tidy.csv file contains a data set of averages for subjects by activity
+The tidy.txt file contains a data set of averages for subjects by activity

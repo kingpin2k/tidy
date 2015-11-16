@@ -88,4 +88,4 @@ combined <- combined[, sel_cols]
 # create a new tidy set
 tidy <- combined %>% group_by(Activity, Subject) %>% summarize_each(funs(mean))
 
-write.csv(tidy, "tidy.csv")
+write.table(tidy, "tidy.txt", row.names = F)
